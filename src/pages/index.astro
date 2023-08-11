@@ -3,9 +3,9 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Instituto Socila Bezerra de Menezes.">
-  <header class="bg-slate-300 p-5 font-bold text-gray-700">
+  <!-- <header class="bg-slate-300 p-5 font-bold text-gray-700">
     <nav class="flex justify-between">
-      <p>ISBM</p>
+      <p class="font-regular">ISBM</p>
       <p id="menu-mobile">Menu</p>
     </nav>
   </header>
@@ -14,21 +14,18 @@ import Layout from "../layouts/Layout.astro";
   </div>
 
   <script>
+    const menuMobile = document.querySelector("#menu-mobile");
+    const containerMenuMobile = document.querySelector(
+      "#container-menu-mobile"
+    );
     const openMenu = () => {
-      const menuMobile = document.querySelector("#menu-mobile");
-      const containerMenuMobile = document.querySelector(
-        "#container-menu-mobile"
-      );
-
-      containerMenuMobile.classList.add("hidden");
+      containerMenuMobile.classList.toggle("hidden");
     };
 
-    menuMobile.addEventListener("click", () => {
-      window.alert("kjsdlkf");
-    });
-  </script>
+    menuMobile.addEventListener("click", openMenu);
+  </script> -->
 
-  <section>
+  <section class="text-center text-white">
     <h1 class="text-7xl pt-24">
       Instituto Social<br />
       <span class="text-gradient">Bezerra de Menezes</span>
