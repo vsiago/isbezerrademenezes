@@ -1,15 +1,39 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Instituto Socila Bezerra de Menezes.">
+  <header class="bg-slate-300 p-5 font-bold text-gray-700">
+    <nav class="flex justify-between">
+      <p>ISBM</p>
+      <p id="menu-mobile">Menu</p>
+    </nav>
+  </header>
+  <div id="container-menu-mobile" class="hidden h-screen bg-slate-500">
+    menu mobile
+  </div>
+
+  <script>
+    const openMenu = () => {
+      const menuMobile = document.querySelector("#menu-mobile");
+      const containerMenuMobile = document.querySelector(
+        "#container-menu-mobile"
+      );
+
+      containerMenuMobile.classList.add("hidden");
+    };
+
+    menuMobile.addEventListener("click", () => {
+      window.alert("kjsdlkf");
+    });
+  </script>
+
   <section>
-    <h1>
+    <h1 class="text-7xl pt-24">
       Instituto Social<br />
       <span class="text-gradient">Bezerra de Menezes</span>
     </h1>
-    <h2>Página em construção</h2>
+    <h2 class="text-3xl p-7">Página em construção</h2>
   </section>
 </Layout>
 
