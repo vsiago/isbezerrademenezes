@@ -1,40 +1,12 @@
 ---
+import { materialDesign } from "../components/MaterialDesign.js";
 import Layout from "../layouts/Layout.astro";
-import Header from "../components/Header.jsx";
+
+const { primaryColor, bgGradient } = materialDesign().colors;
 ---
 
-<!-- <Header /> -->
-<Layout title="Instituto Socila Bezerra de Menezes.">
-  <!-- <header class="bg-slate-300 p-5 font-bold text-gray-700">
-    <nav class="flex justify-between">
-      <p class="font-regular">ISBM</p>
-      <p id="menu-mobile">Menu</p>
-    </nav>
-  </header>
-  <div id="container-menu-mobile" class="hidden h-screen bg-slate-500">
-    menu mobile
-  </div>
-
-  <script>
-    const menuMobile = document.querySelector("#menu-mobile");
-    const containerMenuMobile = document.querySelector(
-      "#container-menu-mobile"
-    );
-    const openMenu = () => {
-      containerMenuMobile.classList.toggle("hidden");
-    };
-
-    menuMobile.addEventListener("click", openMenu);
-  </script> -->
-
-  <section class="text-center text-white">
-    <h1 class="text-7xl pt-24">
-      Instituto Social<br />
-      <span class="text-gradient">Bezerra de Menezes</span>
-    </h1>
-    <h2 class="text-3xl p-7">Página em construção</h2>
-  </section>
-</Layout>
+<Layout title="Instituto Socila Bezerra de Menezes." />
+<section class={`h-screen ${bgGradient}`}>Oi</section>
 
 <style>
   .text-gradient {

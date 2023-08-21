@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.97 17.97">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Camada_1" data-name="Camada 1">
+    <g>
+      <rect class="cls-1" x="-3.01" y="7.27" width="24" height="3.43" rx="1.71" ry="1.71" transform="translate(-3.72 8.99) rotate(-45)"/>
+      <rect class="cls-1" x="-3.01" y="7.27" width="24" height="3.43" rx="1.71" ry="1.71" transform="translate(8.99 21.7) rotate(-135)"/>
+    </g>
+  </g>
+</svg>
