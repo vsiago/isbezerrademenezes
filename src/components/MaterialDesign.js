@@ -7,7 +7,7 @@ export function materialDesign() {
       bgLightColor: "bg-[#F7F0F4]",
       bgDarkColor: "bg-[#0F0D0E] lg:bg-[inherit] lg:pt-[50px]",
       bgGradient:
-        "bg-gradient-to-br from-[#0F0D0E] to-90% via-[#7E1931]  to-[#e0234e]  ",
+        "bg-gradient-to-br from-[#0F0D0E] via-[#7E1931]  to-[#e0234e]  ",
     },
     texts: {
       textLightMenu: "text-[#BFAFB8] font-medium",
