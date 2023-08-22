@@ -9,7 +9,28 @@ const { primaryColor, bgGradient } = materialDesign().colors;
 <section
   class={`h-[calc(100vh-150px)] w-full rounded-bl-[60px] rounded-br-[60px]  lg:rounded-bl-[250px] lg:rounded-br-[250px] ${bgGradient}`}
 >
-  Oi
+  <div
+    class="bg-criancas w-full h-full lg:rounded-bl-[250px] lg:rounded-br-[250px]"
+  >
+    <div
+      class="container h-full w-ful mx-auto flex flex-col items-start justify-center"
+    >
+      <p class="mb-3 ml-1 uppercase tracking-[5px] text-lg text-[#e0234e] font-bold">
+        Bem-vindo ao
+      </p>
+      <h1 class="text-7xl w-[50%] font-bold text-white text-left">
+        Nosso Instituto Social Bezerra de Menezes
+      </h1>
+      <p class="text-4xl mt-4 text-[#BFAFB8] w-[40%]">
+        Transformando vidas através do esporte, cultura e da arte.
+      </p>
+
+      <button
+        class="p-3 px-8 border-2 mt-7 border-white rounded-full font-medium text-white hover:bg-white hover:text-[#e0234e] duration-300"
+        >Quem Somos</button
+      >
+    </div>
+  </div>
 </section>
 
 <style>
@@ -19,5 +40,14 @@ const { primaryColor, bgGradient } = materialDesign().colors;
     -webkit-text-fill-color: transparent;
     background-size: 400%;
     background-position: 0%;
+  }
+
+  .bg-criancas {
+    height: 100%;
+    width: 100%;
+    background-image: url(./img/bg-criancas.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
   }
 </style>
