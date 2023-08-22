@@ -7,10 +7,10 @@ const { primaryColor, bgGradient } = materialDesign().colors;
 
 <Layout title="Instituto Socila Bezerra de Menezes." />
 <section
-  class={`h-[calc(100vh-20vh)] w-full  lg:rounded-bl-[250px] lg:rounded-br-[250px] ${bgGradient}`}
+  class={`h-[calc(100vh-20vh)] w-full md:rounded-bl-[170px]  md:rounded-br-[170px] lg:rounded-bl-[220px] lg:rounded-br-[220px] ${bgGradient}`}
 >
   <div
-    class="bg-criancas w-full h-full lg:rounded-bl-[250px] lg:rounded-br-[250px]"
+    class="bg-criancas w-full h-full md:rounded-bl-[170px] md:rounded-br-[170px] lg:rounded-bl-[220px] lg:rounded-br-[220px]"
   >
     <div
       class="container h-full w-ful mx-auto flex flex-col items-start pb-[60px] md:pb-0 justify-end md:justify-center p-5"
@@ -20,7 +20,9 @@ const { primaryColor, bgGradient } = materialDesign().colors;
       >
         Bem-vindo ao
       </p>
-      <h1 class="text-4xl sm:text-7xl xl:w-[50%] font-bold text-white text-left">
+      <h1
+        class="text-4xl sm:text-7xl xl:w-[50%] font-bold text-white text-left"
+      >
         Nosso Instituto Social Bezerra de Menezes
       </h1>
       <p class="text-xl md:text-4xl mt-2 lg:mt-4 text-[#BFAFB8] xl:w-[40%]">
@@ -28,7 +30,7 @@ const { primaryColor, bgGradient } = materialDesign().colors;
       </p>
 
       <button
-        class="p-3 px-14 md:px-8 border-2 mt-7 border-white rounded-full font-medium text-white hover:bg-white hover:text-[#e0234e] duration-300"
+        class="p-3 px-14 md:px-8 border-2 mt-7 bg-white sm:bg-inherit text-[#e0234e] md:border-white rounded-full font-medium sm:text-white hover:bg-white hover:text-[#e0234e] duration-300"
         >Quem Somos</button
       >
     </div>
@@ -55,7 +57,7 @@ const { primaryColor, bgGradient } = materialDesign().colors;
 
   @media (max-width: 600px) {
     .bg-criancas {
-      background-size: 120%
+      background-size: 120%;
     }
   }
 </style>
