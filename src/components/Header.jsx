@@ -13,7 +13,7 @@ export function Header() {
         <a href="/">
           <img
             src="./img/SVG/logo-isbm.svg"
-            className={`w-[130px]`}
+            className={`w-[130px] lg:w-[200px]`}
             alt="Logo ISBM"
           />
         </a>
