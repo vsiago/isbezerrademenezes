@@ -27,7 +27,7 @@ export function Header() {
             alt="Logo ISBM"
           />
         </a>
-        <ul className={`lg:flex gap-5 sm:opacity-100 ${active ? " px-5 absolute top-100 right-0 left-0 mt-[80px] w-full h-auto pb-4 opacity-90 sm:pb-0 bg-[#0F0D0E] duration-300" : "opacity-0 h-0"}`}>
+        <ul className={`lg:flex gap-5 sm:opacity-100 ${active ? " px-5 absolute top-100px right-0 left-0 mt-[80px] w-full h-auto pb-4 opacity-90 sm:pb-0 bg-[#0F0D0E] duration-300" : "opacity-0 h-0"}`}>
           <li>
             <a
               className={`px-2 py-3 border-b-2 border-black sm:border-0 w-full inline-block transition ease delay-100 text-white hover:text-[#F43D5C] duration-300`}
