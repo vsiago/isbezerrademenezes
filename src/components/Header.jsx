@@ -15,7 +15,7 @@ export function Header() {
 
   return (
     <header
-      className={`p-4 px-7 h-[80px] flex items-center ${textLightMenu} ${bgDarkColor}  absolute right-0 left-0`}
+      className={`p-4 px-7 lg:mt-9 h-[80px] flex items-center ${textLightMenu} ${bgDarkColor}  absolute right-0 left-0`}
     >
       <nav className={`flex items-center justify-between container mx-auto`}>
         <a className={`${active ? "hidden" : ""}`} href="/">
@@ -26,7 +26,7 @@ export function Header() {
           />
         </a>
         <ul
-          className={`lg:flex gap-5 sm:opacity-100 ${
+          className={`lg:flex lg:items-center gap-5 sm:opacity-100 ${
             active
               ? " px-5 absolute top-[80px] right-0 left-0 w-full h-auto pb-4 opacity-90 sm:pb-0 bg-[#0F0D0E] duration-300"
               : "opacity-0 h-0"

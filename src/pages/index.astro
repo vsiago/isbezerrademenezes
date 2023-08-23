@@ -8,7 +8,7 @@ const { primaryColor, bgGradient } = materialDesign().colors;
 <Layout title="Instituto Socila Bezerra de Menezes." />
 
 <section
-  class={`h-[calc(100vh-15vh)] lg:h-[calc(100vh-10vh)] w-full md:rounded-bl-[170px]  md:rounded-br-[170px] lg:rounded-bl-[220px] lg:rounded-br-[220px] ${bgGradient}`}
+  class={`h-[calc(100vh-18vh)] lg:h-[calc(100vh-20vh)] w-full rounded-bl-[50px]  rounded-br-[50px] md:rounded-bl-[170px]  md:rounded-br-[170px] lg:rounded-bl-[220px] lg:rounded-br-[220px] ${bgGradient}`}
 >
   <div
     class="bg-criancas w-full h-full md:rounded-bl-[170px] md:rounded-br-[170px] lg:rounded-bl-[220px] lg:rounded-br-[220px]"
@@ -27,17 +27,41 @@ const { primaryColor, bgGradient } = materialDesign().colors;
         Nosso Instituto Social <br class="hidden sm:block" />Bezerra de Menezes
       </h1>
       <p
-        class="text-xl md:text-3xl mt-2 lg:mt-4 text-[#BFAFB8] w-[80%] xl:w-[40%]"
+        class="text-xl/6 md:text-3xl mt-2 lg:mt-4 text-[#BFAFB8] w-[80%] xl:w-[40%]"
       >
         Transformando vidas através do esporte, cultura e da arte.
       </p>
 
       <button
-        class="p-3 px-10 md:px-8 border-2 mt-7 bg-white sm:bg-inherit text-[#e0234e] md:border-white rounded-full font-medium sm:text-white hover:bg-white hover:text-[#e0234e] duration-300"
+        class="py-1 px-7 md:px-8 border-2 mt-5 bg-white sm:bg-inherit text-lg text-[#7B1930] md:border-white rounded-full font-medium sm:text-white hover:bg-white hover:text-[#e0234e] duration-300"
         >Quem Somos</button
       >
     </div>
   </div>
+</section>
+<section class="px-5 h-[18vh] container mx-auto">
+  <p
+    class="py-3 text-[#B6B6B7] text-sm lg:text-lg lg:py-4 font-medium tracking-[1px]"
+  >
+    NOSSOS APOIADORES:
+  </p>
+  <div class="flex items-center justify-between lg:">
+    <img
+      class="h-9 lg:h-[90px]"
+      src="./img/SVG/oplan-care.svg"
+      alt="Logo Oplan Care"
+    />
+    <img class="h-9 lg:h-[90px]" src="./img/SVG/hgi-logo.svg" alt="Logo HGI" />
+    <img
+      class="h-9 lg:h-[90px]"
+      src="./img/SVG/oplan-logo.svg"
+      alt="Logo Oplan"
+    />
+  </div>
+</section>
+
+<section class="h-screen container p-5">
+  <h2 class="text-3xl text-center color-[#0F0D0E]">Quem somos</h2>
 </section>
 
 <style>
