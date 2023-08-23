@@ -2,12 +2,12 @@
 interface Props {
   title: string;
 }
-import { Header } from "../components/Header.jsx";
+import { Header } from '../components/Header.jsx';
 const { title } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
@@ -18,7 +18,7 @@ const { title } = Astro.props;
   </head>
   <body>
     <slot />
-    <Header />
+    <Header client:load />
   </body>
 
   <style is:global>
