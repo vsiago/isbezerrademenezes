@@ -104,7 +104,7 @@ export function Header() {
           <button
             className={`text-white px-9 py-3 rounded-full transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) hover:scale-[1.23] hover:border-5 duration-300 bg-[#e0234e]`}
           >
-           - Apoiar
+           Apoiar
           </button>
           <a className="ml-2 md:ml-4" href="./">
             <img
